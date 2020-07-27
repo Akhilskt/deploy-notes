@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.w-100{
+    width:100%
+}
+.navBar{
+    min-height: 4.5rem;
+    padding: 0;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    border-color: #e4eaec;
+    
+}
+.navBarHeader{
+    float: left;
+    /* height: 4.715rem; */
+    padding: 1.5715rem 0;
+    margin: 0;
+    font-size: 1.286rem;
+    font-weight: 700;
+    line-height: 22px;
+    /* color: white; */
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    background-color: #3e8ef7;
+    text-align: center;
+}
+
+
+@media (min-width: 768px){
+    .navBarHeader {
+        width: 260px;
+        min-width: 260px;
+    }
+    .menuBar {
+        width: 260px;
+        min-width: 260px;
+    }
+    .ng-fa-icon{
+        color: #76838f;
+        font-size: 1.5rem;
+        margin-left: 2.5rem;
+        cursor: pointer;
+    }
+    .ng-fa-icon:last-child{
+        margin-left: 0rem;
+    }
+    .input-search{
+        margin-right: 5rem;
+        margin-top: -0.3rem;
+    }
+    .navBarContainer{
+        background-color:white;
+        padding: 1.3rem 0;
+    }
+    .page{
+        margin-left: 280px;
+        position: relative;
+    }
+    .noteDetailsContainer{
+        width:420px;
+    }
+
+    .w-260{
+        width: 260px !important;
+        min-width: 260px !important;
+    }
+    .w-70{
+        width: 70px !important;
+        min-width: 70px !important;
+    }
+    .ml-280{
+        margin-left: 280px !important;
+    }
+    .ml-80{
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navBarHeader {
+        width: 70px;
+        min-width: 70px;
+    }
+    .menuBar{
+        width: 70px;
+        min-width: 70px;
+    }
+    .ng-fa-icon{
+        color: #76838f;
+        font-size: 1rem;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    .input-search{
+        margin-right: 2rem;
+        margin-top: -0.6rem;
+    }
+    .navBarContainer{
+        background-color:white;
+        padding: 1.5rem 0;
+    }
+    .page{
+        margin-left: 80px;
+        position: relative;
+    }
+    .noteDetailsContainer{
+        width:282px;
+    }
+    .navBarContainer fa-icon:first-child{
+        display: none;
+    }
+}
+.menuBar {
+    position: fixed;
+    min-height: 100vh;
+    border-right: 1px solid gainsboro
+}
+
+.bggray{
+    background-color: #fffb9f;
+}
+
+.p-1{
+    padding: 1rem;
+}
+.noteCard{
+    color: #76838f;
+}
+.noteTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.noteBody{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.border-doted{
+    border-bottom: 1px solid #e4eaec;
+}
+
+
+
+.titleHeader{
+    margin: 0.5rem 0;
+}
+
+.titleHeader input{
+    width:100%;
+    background-clip: padding-box;
+    border: 1px solid #e4eaec;
+    border-radius: .215rem;
+    box-sizing: border-box;
+    height: 2.573rem;
+    font-weight: 100;
+    border-color: #e4eaec;
+    padding: .429rem 1rem;
+    font-size: 1rem;
+    line-height: 1.571429;
+    color: #76838f;
+
+}
+.titleBod textarea{
+    width:100%;
+    background-clip: padding-box;
+    border: 1px solid #e4eaec;
+    border-radius: .215rem;
+    box-sizing: border-box;
+    font-weight: 100;
+    border-color: #e4eaec;
+    padding: .429rem 1rem;
+    font-size: 1rem;
+    line-height: 1.571429;
+    color: #76838f;
+
+}
+
+
+
+.input-search{
+    float: right;
+    /* margin-right: 5rem; */
+    background-clip: padding-box;
+    border: 1px solid #e4eaec;
+    border-radius: .215rem;
+    box-sizing: border-box;
+    /* height: 2.573rem; */
+    font-weight: 100;
+    border-color: #e4eaec;
+    /* padding: .429rem 1rem; */
+    font-size: 1rem;
+    line-height: 1.571429;
+    color: #76838f;
+    width: 40%;
+    padding: .429rem 1rem;
+   
+}
+.ml25{
+    margin-left:2.5rem;
+}
